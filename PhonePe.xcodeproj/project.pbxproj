@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1001C2424F84F8800B370EB /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1001C2324F84F8800B370EB /* BlurView.swift */; };
+		F1001C2924F8581100B370EB /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1001C2824F8581100B370EB /* Navigation.swift */; };
 		F18652F024F8153E008AC273 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18652EF24F8153E008AC273 /* Modifiers.swift */; };
 		F19A398A24F7F6A2007B73EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A398924F7F6A2007B73EC /* HomeView.swift */; };
 		F19A398C24F7F6B4007B73EC /* StoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A398B24F7F6B4007B73EC /* StoresView.swift */; };
@@ -15,12 +17,14 @@
 		F19A399224F7F6D5007B73EC /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A399124F7F6D5007B73EC /* HistoryView.swift */; };
 		F19A399524F7F8B8007B73EC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A399424F7F8B8007B73EC /* Color.swift */; };
 		F1B13F0C24F3E935006CE4B2 /* PhonePeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B13F0B24F3E935006CE4B2 /* PhonePeApp.swift */; };
-		F1B13F0E24F3E935006CE4B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B13F0D24F3E935006CE4B2 /* ContentView.swift */; };
+		F1B13F0E24F3E935006CE4B2 /* EntryPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B13F0D24F3E935006CE4B2 /* EntryPointView.swift */; };
 		F1B13F1024F3E935006CE4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B13F0F24F3E935006CE4B2 /* Assets.xcassets */; };
 		F1B13F1324F3E935006CE4B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B13F1224F3E935006CE4B2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1001C2324F84F8800B370EB /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		F1001C2824F8581100B370EB /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		F18652EF24F8153E008AC273 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		F19A398924F7F6A2007B73EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F19A398B24F7F6B4007B73EC /* StoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresView.swift; sourceTree = "<group>"; };
@@ -30,7 +34,7 @@
 		F19A399424F7F8B8007B73EC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F1B13F0824F3E935006CE4B2 /* PhonePe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhonePe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B13F0B24F3E935006CE4B2 /* PhonePeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePeApp.swift; sourceTree = "<group>"; };
-		F1B13F0D24F3E935006CE4B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1B13F0D24F3E935006CE4B2 /* EntryPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPointView.swift; sourceTree = "<group>"; };
 		F1B13F0F24F3E935006CE4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1B13F1224F3E935006CE4B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1B13F1424F3E935006CE4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,15 +51,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F19A398824F7F691007B73EC /* Views */ = {
+		F1001C2524F8545500B370EB /* Tab */ = {
 			isa = PBXGroup;
 			children = (
-				F1B13F0D24F3E935006CE4B2 /* ContentView.swift */,
 				F19A398924F7F6A2007B73EC /* HomeView.swift */,
 				F19A398B24F7F6B4007B73EC /* StoresView.swift */,
 				F19A398D24F7F6BF007B73EC /* SwitchView.swift */,
 				F19A398F24F7F6CC007B73EC /* MyMoneyView.swift */,
 				F19A399124F7F6D5007B73EC /* HistoryView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		F19A398824F7F691007B73EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1B13F0D24F3E935006CE4B2 /* EntryPointView.swift */,
+				F1001C2524F8545500B370EB /* Tab */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -65,6 +77,8 @@
 			children = (
 				F19A399424F7F8B8007B73EC /* Color.swift */,
 				F18652EF24F8153E008AC273 /* Modifiers.swift */,
+				F1001C2324F84F8800B370EB /* BlurView.swift */,
+				F1001C2824F8581100B370EB /* Navigation.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -177,11 +191,13 @@
 			files = (
 				F19A399224F7F6D5007B73EC /* HistoryView.swift in Sources */,
 				F19A398A24F7F6A2007B73EC /* HomeView.swift in Sources */,
-				F1B13F0E24F3E935006CE4B2 /* ContentView.swift in Sources */,
+				F1001C2924F8581100B370EB /* Navigation.swift in Sources */,
+				F1B13F0E24F3E935006CE4B2 /* EntryPointView.swift in Sources */,
 				F19A398C24F7F6B4007B73EC /* StoresView.swift in Sources */,
 				F19A399024F7F6CC007B73EC /* MyMoneyView.swift in Sources */,
 				F19A399524F7F8B8007B73EC /* Color.swift in Sources */,
 				F19A398E24F7F6BF007B73EC /* SwitchView.swift in Sources */,
+				F1001C2424F84F8800B370EB /* BlurView.swift in Sources */,
 				F18652F024F8153E008AC273 /* Modifiers.swift in Sources */,
 				F1B13F0C24F3E935006CE4B2 /* PhonePeApp.swift in Sources */,
 			);
@@ -313,6 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PhonePe/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Y7F7UCN4K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PhonePe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -334,6 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PhonePe/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Y7F7UCN4K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PhonePe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
