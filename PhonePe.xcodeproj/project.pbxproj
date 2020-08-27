@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F18652F024F8153E008AC273 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18652EF24F8153E008AC273 /* Modifiers.swift */; };
+		F19A398A24F7F6A2007B73EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A398924F7F6A2007B73EC /* HomeView.swift */; };
+		F19A398C24F7F6B4007B73EC /* StoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A398B24F7F6B4007B73EC /* StoresView.swift */; };
+		F19A398E24F7F6BF007B73EC /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A398D24F7F6BF007B73EC /* SwitchView.swift */; };
+		F19A399024F7F6CC007B73EC /* MyMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A398F24F7F6CC007B73EC /* MyMoneyView.swift */; };
+		F19A399224F7F6D5007B73EC /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A399124F7F6D5007B73EC /* HistoryView.swift */; };
+		F19A399524F7F8B8007B73EC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A399424F7F8B8007B73EC /* Color.swift */; };
+		F1B13F0C24F3E935006CE4B2 /* PhonePeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B13F0B24F3E935006CE4B2 /* PhonePeApp.swift */; };
+		F1B13F0E24F3E935006CE4B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B13F0D24F3E935006CE4B2 /* ContentView.swift */; };
+		F1B13F1024F3E935006CE4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B13F0F24F3E935006CE4B2 /* Assets.xcassets */; };
+		F1B13F1324F3E935006CE4B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B13F1224F3E935006CE4B2 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F18652EF24F8153E008AC273 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		F19A398924F7F6A2007B73EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F19A398B24F7F6B4007B73EC /* StoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresView.swift; sourceTree = "<group>"; };
+		F19A398D24F7F6BF007B73EC /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		F19A398F24F7F6CC007B73EC /* MyMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoneyView.swift; sourceTree = "<group>"; };
+		F19A399124F7F6D5007B73EC /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		F19A399424F7F8B8007B73EC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F1B13F0824F3E935006CE4B2 /* PhonePe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhonePe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B13F0B24F3E935006CE4B2 /* PhonePeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePeApp.swift; sourceTree = "<group>"; };
+		F1B13F0D24F3E935006CE4B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1B13F0F24F3E935006CE4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1B13F1224F3E935006CE4B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1B13F1424F3E935006CE4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1B13F0524F3E935006CE4B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F19A398824F7F691007B73EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1B13F0D24F3E935006CE4B2 /* ContentView.swift */,
+				F19A398924F7F6A2007B73EC /* HomeView.swift */,
+				F19A398B24F7F6B4007B73EC /* StoresView.swift */,
+				F19A398D24F7F6BF007B73EC /* SwitchView.swift */,
+				F19A398F24F7F6CC007B73EC /* MyMoneyView.swift */,
+				F19A399124F7F6D5007B73EC /* HistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F19A399324F7F8AF007B73EC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F19A399424F7F8B8007B73EC /* Color.swift */,
+				F18652EF24F8153E008AC273 /* Modifiers.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F1B13EFF24F3E935006CE4B2 = {
+			isa = PBXGroup;
+			children = (
+				F1B13F0A24F3E935006CE4B2 /* PhonePe */,
+				F1B13F0924F3E935006CE4B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1B13F0924F3E935006CE4B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1B13F0824F3E935006CE4B2 /* PhonePe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1B13F0A24F3E935006CE4B2 /* PhonePe */ = {
+			isa = PBXGroup;
+			children = (
+				F1B13F0B24F3E935006CE4B2 /* PhonePeApp.swift */,
+				F1B13F0F24F3E935006CE4B2 /* Assets.xcassets */,
+				F19A399324F7F8AF007B73EC /* Extension */,
+				F19A398824F7F691007B73EC /* Views */,
+				F1B13F1424F3E935006CE4B2 /* Info.plist */,
+				F1B13F1124F3E935006CE4B2 /* Preview Content */,
+			);
+			path = PhonePe;
+			sourceTree = "<group>";
+		};
+		F1B13F1124F3E935006CE4B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1B13F1224F3E935006CE4B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1B13F0724F3E935006CE4B2 /* PhonePe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B13F1724F3E935006CE4B2 /* Build configuration list for PBXNativeTarget "PhonePe" */;
+			buildPhases = (
+				F1B13F0424F3E935006CE4B2 /* Sources */,
+				F1B13F0524F3E935006CE4B2 /* Frameworks */,
+				F1B13F0624F3E935006CE4B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhonePe;
+			productName = PhonePe;
+			productReference = F1B13F0824F3E935006CE4B2 /* PhonePe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1B13F0024F3E935006CE4B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F1B13F0724F3E935006CE4B2 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = F1B13F0324F3E935006CE4B2 /* Build configuration list for PBXProject "PhonePe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1B13EFF24F3E935006CE4B2;
+			productRefGroup = F1B13F0924F3E935006CE4B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1B13F0724F3E935006CE4B2 /* PhonePe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1B13F0624F3E935006CE4B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B13F1324F3E935006CE4B2 /* Preview Assets.xcassets in Resources */,
+				F1B13F1024F3E935006CE4B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1B13F0424F3E935006CE4B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19A399224F7F6D5007B73EC /* HistoryView.swift in Sources */,
+				F19A398A24F7F6A2007B73EC /* HomeView.swift in Sources */,
+				F1B13F0E24F3E935006CE4B2 /* ContentView.swift in Sources */,
+				F19A398C24F7F6B4007B73EC /* StoresView.swift in Sources */,
+				F19A399024F7F6CC007B73EC /* MyMoneyView.swift in Sources */,
+				F19A399524F7F8B8007B73EC /* Color.swift in Sources */,
+				F19A398E24F7F6BF007B73EC /* SwitchView.swift in Sources */,
+				F18652F024F8153E008AC273 /* Modifiers.swift in Sources */,
+				F1B13F0C24F3E935006CE4B2 /* PhonePeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1B13F1524F3E935006CE4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1B13F1624F3E935006CE4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1B13F1824F3E935006CE4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PhonePe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PhonePe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamjdpatel.swiftui.PhonePe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1B13F1924F3E935006CE4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PhonePe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PhonePe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iamjdpatel.swiftui.PhonePe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1B13F0324F3E935006CE4B2 /* Build configuration list for PBXProject "PhonePe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B13F1524F3E935006CE4B2 /* Debug */,
+				F1B13F1624F3E935006CE4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B13F1724F3E935006CE4B2 /* Build configuration list for PBXNativeTarget "PhonePe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B13F1824F3E935006CE4B2 /* Debug */,
+				F1B13F1924F3E935006CE4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1B13F0024F3E935006CE4B2 /* Project object */;
+}
