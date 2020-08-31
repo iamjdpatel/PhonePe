@@ -20,6 +20,7 @@
 		F1B13F0E24F3E935006CE4B2 /* EntryPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B13F0D24F3E935006CE4B2 /* EntryPointView.swift */; };
 		F1B13F1024F3E935006CE4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B13F0F24F3E935006CE4B2 /* Assets.xcassets */; };
 		F1B13F1324F3E935006CE4B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B13F1224F3E935006CE4B2 /* Preview Assets.xcassets */; };
+		F1D0CBAC24FD0E14009A147E /* SwitchAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0CBAB24FD0E14009A147E /* SwitchAppsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F1B13F0F24F3E935006CE4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1B13F1224F3E935006CE4B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1B13F1424F3E935006CE4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D0CBAB24FD0E14009A147E /* SwitchAppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchAppsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F19A398924F7F6A2007B73EC /* HomeView.swift */,
 				F19A398B24F7F6B4007B73EC /* StoresView.swift */,
 				F19A398D24F7F6BF007B73EC /* SwitchView.swift */,
+				F1D0CBAB24FD0E14009A147E /* SwitchAppsView.swift */,
 				F19A398F24F7F6CC007B73EC /* MyMoneyView.swift */,
 				F19A399124F7F6D5007B73EC /* HistoryView.swift */,
 			);
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D0CBAC24FD0E14009A147E /* SwitchAppsView.swift in Sources */,
 				F19A399224F7F6D5007B73EC /* HistoryView.swift in Sources */,
 				F19A398A24F7F6A2007B73EC /* HomeView.swift in Sources */,
 				F1001C2924F8581100B370EB /* Navigation.swift in Sources */,
