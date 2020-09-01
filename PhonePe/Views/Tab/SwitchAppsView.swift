@@ -43,7 +43,7 @@ struct SwitchAppsView: View {
                                     .foregroundColor(.gray)
                                 Text(row.off)
                                     .font(.callout)
-                                    .frame(width: 80, height: 40)
+                                    .frame(width: 80, height: 50)
                                     .multilineTextAlignment(.center)
                                 Text("OPEN")
                                     .font(.footnote)
